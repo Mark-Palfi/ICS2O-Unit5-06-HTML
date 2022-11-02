@@ -9,8 +9,8 @@
  */
 function enterClicked() {
   // input
-  const factor1 = document.getElementById("street-name").value
-  const factor2 = parseInt(document.getElementById("street-number").value)
+  const factor1 = document.getElementById("factor1").value
+  const factor2 = parseInt(document.getElementById("factor2").value)
 
   // output
   while (product != factor1 * factor2) {
