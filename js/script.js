@@ -18,5 +18,5 @@ function enterClicked() {
   for (let counter = 0; counter < factor2; counter++) {
     answer = answer + factor1
   }
-  text = text + "The answer is " + answer + "<br>";
+  text = "The answer is " + answer + "<br>";
 }
