@@ -11,12 +11,13 @@ function enterClicked() {
   let answer = 0
   
   // input
-  const factor1 = document.getElementById("factor1").value
+  const factor1 = parseInt(document.getElementById("factor1").value)
   const factor2 = parseInt(document.getElementById("factor2").value)
 
   // output
   for (let counter = 0; counter < factor2; counter++) {
     answer = answer + factor1
   }
-  text = "The answer is " + answer + "<br>";
+  text = "The answer is " + answer + "<br>"
+  document.getElementById("answer").innerHTML = text
 }
