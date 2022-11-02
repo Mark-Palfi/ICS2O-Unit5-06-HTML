@@ -13,5 +13,6 @@ function enterClicked() {
   const factor2 = parseInt(document.getElementById("street-number").value)
 
   // output
-  while (product != factor1 * factor2) {  
+  while (product != factor1 * factor2) {
+  }
 }
